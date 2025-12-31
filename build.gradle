@@ -14,6 +14,10 @@ dependencies {
     // https://mvnrepository.com/artifact/io.lettuce/lettuce-core
     implementation("io.lettuce:lettuce-core:7.2.1.RELEASE")
 
+    // logback-classic
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    implementation("ch.qos.logback:logback-classic:1.5.23")
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
