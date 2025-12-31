@@ -1,4 +1,4 @@
-package redis.lecttuce;
+package redis.lettuce;
 
 import io.lettuce.core.api.sync.RedisCommands;
 

@@ -1,13 +1,9 @@
 package redis.lettuce.string;
 
 import io.lettuce.core.KeyValue;
-import io.lettuce.core.RedisClient;
-import io.lettuce.core.RedisURI;
-import io.lettuce.core.api.StatefulRedisConnection;
-import io.lettuce.core.api.sync.RedisCommands;
 import org.junit.jupiter.api.Test;
-import redis.lecttuce.CommandAction;
-import redis.lecttuce.CommandTemplate;
+import redis.lettuce.CommandAction;
+import redis.lettuce.CommandTemplate;
 
 import java.util.LinkedHashMap;
 import java.util.List;
